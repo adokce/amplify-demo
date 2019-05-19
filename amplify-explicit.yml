@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install --quiet --global expo-cli
+        - yarn global add expo-cli
         - >
           if [ -f yarn.lock ]; then
             yarn
